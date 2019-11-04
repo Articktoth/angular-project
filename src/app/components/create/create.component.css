@@ -1,0 +1,20 @@
+.container{
+    padding: 50px;
+}
+
+form{
+    width: 50%;
+}
+
+form label{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form textarea{
+    width: 80%;
+}

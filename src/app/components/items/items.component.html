@@ -1,0 +1,8 @@
+<p>items works!</p>
+<div class="container">
+    <div *ngFor="let item of _projectService.items" class="items">
+        <img src="{{url + 'get-image/' + item.image}}" *ngIf="item.image">
+        <li>{{item.name}}</li>
+        <li>{{item.category}}</li>
+    </div>
+</div>
